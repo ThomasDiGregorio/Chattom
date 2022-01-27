@@ -4,11 +4,14 @@ export default class Home extends Component {
   render() {
     return (
       <div className="home">
-        <input>Search Bar</input>
-        <FontAwesomeIcon icon="fa-solid fa-magnifying-glass" />
-        <input>Button</input>
+        <a>Button</a>
         <FontAwesomeIcon icon="fa-duotone fa-house-chimney" />
       </div>
     );
   }
 }
+
+// paint draw you logo
+// import home and nav bar app.js
+// open component routes and props
+// 2 - 4 pm MST / 4 - 6 pm EST
