@@ -5,7 +5,7 @@ export default class Home extends Component {
     return (
       <div className="home">
         <a>Button</a>
-        <FontAwesomeIcon icon="fa-duotone fa-house-chimney" />
+        {/* <FontAwesomeIcon icon="fa-duotone fa-house-chimney" /> */}
       </div>
     );
   }
