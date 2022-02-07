@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../../Images/imgbin-online-LOGO-1.png";
+import { NavLink } from "react-router-dom";
 function NAV() {
   return (
     <div>
@@ -9,17 +10,11 @@ function NAV() {
         </a>
 
         <div className="left">
-          <a href="#" className="link">
-            Home
-          </a>
-          <a href="#" className="link">
-            Authentication
-          </a>
+          <NavLink to="/Home">Home</NavLink>
+          <NavLink to="/Authentication">Authentication</NavLink>
         </div>
         <div className="right">
-          <a href="#" className="link">
-            Chatroom
-          </a>
+          <NavLink to="/Chatroom">Chatroom</NavLink>
         </div>
       </div>
     </div>
