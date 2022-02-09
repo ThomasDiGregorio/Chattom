@@ -10,7 +10,9 @@ function NAV() {
         </a>
 
         <div className="left">
-          <NavLink to="/Home">Home</NavLink>
+          <NavLink exact to="/">
+            Home
+          </NavLink>
           <NavLink to="/Authentication">Authentication</NavLink>
         </div>
         <div className="right">
