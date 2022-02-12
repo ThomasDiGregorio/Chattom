@@ -3,8 +3,14 @@
 .built-with {
   font-family: "Secular One", sans-serif;
   border-style: groove;
-  color: black;
-  border-color: rgb(144, 43, 226);
+  color: red;
   font-style: normal;
   font-size: medium;
+  width: 200px;
+  height: 210px;
+  padding: 20px;
+  position: absolute;
+  top: 250px;
+  border: 8px solid blue;
+  background: yellow;
 }
