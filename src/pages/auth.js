@@ -44,10 +44,10 @@ export default class Authentication extends Component {
 
     return (
       <ReactCSSTG
-        TransisionName="animation"
+        transisionName="animation"
         transitionAppear={true}
         transitionAppearTimeout={500}
-        transitionEntertimeout={500}
+        transitionEnterTimeout={500}
         transitionLeaveTimeout={300}
       >
         {" "}
