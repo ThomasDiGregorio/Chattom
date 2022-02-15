@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { CSSTransition } from "react-transition-group";
-const ReactCSSTG = React.addons.CSSTransitionGroup;
+const ReactCSSTG = CSSTransition;
+import Home from "./home";
 export default class Authentication extends Component {
   constructor(props) {
     super(props);
@@ -44,22 +45,25 @@ export default class Authentication extends Component {
     );
 
     return (
-      <ReactCSSTG
-        transisionName="animation"
-        transitionAppear={true}
-        transitionAppearTimeout={500}
-        transitionEnterTimeout={500}
-        transitionLeaveTimeout={300}
-      >
-        {" "}
-        {component}{" "}
-      </ReactCSSTG>
+      <div>
+        <ReactCSSTG
+          transisionName="animation"
+          transitionAppear={true}
+          transitionAppearTimeout={500}
+          transitionEnterTimeout={500}
+          transitionLeaveTimeout={300}
+        ></ReactCSSTG>
+      </div>
     );
   }
 }
 
 //Modal
 class Modal extends React.Component {
+  constructor(test) {
+    super();
+    this.test = test;
+  }
   render() {
     return (
       <div className="Modal">
@@ -113,6 +117,6 @@ class Logo extends React.Component {
   }
 
   render() {
-    return;
+    return <div>Test</div>;
   }
 }
