@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { CSSTransition } from "react-transition-group";
 const ReactCSSTG = React.addons.CSSTransitionGroup;
 export default class Authentication extends Component {
   constructor(props) {
